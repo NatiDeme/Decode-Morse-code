@@ -34,7 +34,15 @@ end
 decode_char(".-"
 )
 
-
-
+def decode_word(x)
+    x.split(' ').each { |m|
+        $morse.each.with_index{ |l, k|
+            if m == l
+                $newArragy.push($alphabet[k])
+            end
+        }
+    }
+    puts  puts $newArragy.join('')
+end
 
 
