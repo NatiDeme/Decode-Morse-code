@@ -22,6 +22,19 @@ def decode(x)
     puts $newArragy.join('')
 end
 
-decoder(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+# decoder(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+
+def decode_char(x)
+    $morse.each.with_index{ |l, k|
+        if x == l
+            puts $alphabet[k]
+        end
+    }
+end
+decode_char(".-"
+)
+
+
+
 
 
