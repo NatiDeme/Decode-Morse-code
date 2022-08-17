@@ -7,7 +7,7 @@ $morse = [
   ];
 $newArragy = []
 
-def decoder(x)
+def decode(x)
     code = x.split('')
     x.split('   ').each { |c| 
         c.split(' ').each { |m|
