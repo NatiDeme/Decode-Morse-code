@@ -1,49 +1,3 @@
-# $alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-# $morse = [
-#     '.-', '-...', '-.-.', '-..', '.', '..-.', '--.', '....',
-#     '..', '.---', '-.-', '.-..', '--', '-.', '---', '.--.',
-#     '--.-', '.-.', '...', '-', '..-', '...-', '.--', '-..-',
-#     '-.--', '--..'
-#   ];
-# $newArragy = []
-
-# def decode(x)
-#     code = x.split('')
-#     x.split('   ').each { |c|
-#         c.split(' ').each { |m|
-#             $morse.each.with_index{ |l, k|
-#                 if m == l
-#                     $newArragy.push($alphabet[k])
-#                 end
-#             }
-#         }
-#         $newArragy.push(" ")
-#     }
-#     puts $newArragy.join('')
-# end
-
-# # decoder(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
-
-# def decode_char(x)
-#     $morse.each.with_index{ |l, k|
-#         if x == l
-#             puts $alphabet[k]
-#         end
-#     }
-# end
-# decode_char(".-"
-# )
-
-# def decode_word(x)
-#     x.split(' ').each { |m|
-#         $morse.each.with_index{ |l, k|
-#             if m == l
-#                 $newArragy.push($alphabet[k])
-#             end
-#         }
-#     }
-#     puts  puts $newArragy.join('')
-# end
 MORSE_CODE = {
   '.-' => 'A',
   '-...' => 'B',
@@ -95,13 +49,13 @@ MORSE_CODE = {
   '-.--.-' => '-',
   '.-...' => '&',
   '---.' => '+'
-}
+}.freeze
 def decode_char(morse_code)
-  return MORSE_CODE[morse_code]
+  MORSE_CODE[morse_code]
 end
 
 def decode_word(morse_code)
-  morse_code.split(' ').map { |char| decode_char(char) }.join('')
+  morse_code.split.map { |char| decode_char(char) }.join
 end
 
 def decode(morse_code)
