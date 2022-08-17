@@ -7,13 +7,11 @@
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
 
-## Live Demo (if available)
+<!-- ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://livedemo.com) -->
 
 
 ## Getting Started
@@ -25,7 +23,7 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
+- 
 ### Setup
 
 ### Install
@@ -40,17 +38,16 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Natnael Demelash**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@NatiDeme](https://github.com/NatiDeme)
+- Twitter: [@NatiDemelash](https://twitter.com/NatiDemelash)
+- LinkedIn: [Natnael Demelash](https://www.linkedin.com/in/natnael-demelash/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Sahar Saba Amiri**
+- . Gmail: saharsaba.amiri123@gmail.com
+- . LinkedIn: https://www.linkedin.com/sahar-saba-amiri
+- . GitHub : https://github.com/Sahar-SE
 
 ## 🤝 Contributing
 
